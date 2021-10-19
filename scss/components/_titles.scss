@@ -1,0 +1,21 @@
+.titles{
+    
+    &--subtitlesH2{
+        font-size: 1.7rem;
+        color: gray;
+        background-color: black;
+        text-align: center;
+        letter-spacing: 0.2em;
+        padding: 1rem 0;
+        margin-bottom: 0;
+        text-shadow: 2px 2px 1px #333;
+    }
+
+    &--subtitlesH3{
+        font-size: 1.55rem;
+        color: burlywood;
+        text-align: center;
+        letter-spacing: 0.2em;
+        padding: 1rem 0;
+    }
+}

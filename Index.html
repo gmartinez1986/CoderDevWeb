@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="agencia,viajes,vacaciones,aereo,bus,argentina,mexico,peru,brasil">
+    <meta name="description" content="Destinos nacionales e internacionales. Paquetes turísticos. Vacaciones en Argentina, México, Perú, Brasil">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Archivo:wght@100&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./styles/font-awesome.css" rel="stylesheet">
+    <link href="./styles/css/bootstrap.css" rel="stylesheet">
+    <link rel="icon" href="./assets/img/turismo-min.png">
+    <title>Agencia de Turismo</title>
+</head>
+
+<body>
+
+    <!--Sección Cabecera-->
+    <header class="header">
+        <nav class="navbar navbar-expand-md navbar-light header__containerHeader">
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="header__containerHeader__logoTitle">
+                    <a href="#">
+                        <img src="./assets/img/turismo-min.png" alt="Logo" class="header__containerHeader__logoTitle--logo">
+                    </a>
+                    <h1 class="header__containerHeader--title">Agencia de Turismo</h1>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+                    <ul class="nav navbar-nav menu">
+                        <li class="nav-item"><a class="nav-link" href="#"><span
+                                    class="material-icons home">home</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/destinations.html">Destinos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/packages.html">Paquetes</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Ofertas
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Oferta 1</a></li>
+                                <li><a class="dropdown-item" href="#">Oferta 2</a></li>
+                                <li><a class="dropdown-item" href="#">Oferta 3</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./pages/offers.html">Todas las ofertas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Sección Principal-->
+    <main class="main">
+        <h2 class="titles--subtitlesH2">Destacados</h2>
+
+        <!--Sección Ofertas-->
+        <section class="main__grid">
+
+            <div class="sidebar">
+
+                <h4 class="sidebar--subtitles">Destinos</h4>
+                <div class="sidebar__options">
+                    <div class="sidebar__options--option">Argentina</div>
+                    <div class="sidebar__options--option">Mexico</div>
+                    <div class="sidebar__options--option">Peru</div>
+                    <div class="sidebar__options--option">Brasil</div>
+                </div>
+
+            </div>
+
+            <div class="container offers">
+                <h3 class="titles--subtitlesH3">Argentina</h3>
+                <div class="row">
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="offers__offerContainer">
+                            <h5>Promo 1</h5>
+                            <div>
+                                <img src="./assets/img/playa-min.jpg" alt="Promocion Turismo" class="offers__offerContainer--imgPromo">
+                                <p>Descripcion</p>
+                            </div>
+                        </div>
+
+                        <div class="offers__offerContainer">
+                            <h5>Promo 2</h5>
+                            <div>
+                                <img src="./assets/img/ciudad-min.jpg" alt="Promocion Turismo" class="offers__offerContainer--imgPromo">
+                                <p>Descripcion</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <div class="offers__offerContainer">
+                            <h5>Promo 3</h5>
+                            <div>
+                                <img src="./assets/img/nieve-min.jpg"" alt="Promocion Turismo" class="offers__offerContainer--imgPromo">
+                                <p>Descripcion</p>
+                            </div>
+                        </div>
+
+                        <div class="offers__offerContainer">
+                            <h5>Promo 4</h5>
+                            <div>
+                                <img src="./assets/img/turismo-min.jpg"" alt="Promocion Turismo" class="offers__offerContainer--imgPromo">
+                                <p>Descripcion</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Sección Pie de Pagina-->
+    <footer class="footer">
+        <a href="" class="footer__correo">agencia@gmail.com</a>
+        <div class="footer__linkRedes">
+            <a href=""><i class="fab fa-whatsapp"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

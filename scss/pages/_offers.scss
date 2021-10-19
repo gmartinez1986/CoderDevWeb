@@ -1,0 +1,29 @@
+.offers{
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    color: rgb(8, 8, 73);
+    border: 1px solid transparent;
+
+    &__offerContainer{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
+        margin: 1%;
+        padding: 0 6px;
+        border: thin solid black;
+        transition: transform 2s;
+        cursor: pointer;
+
+        &--imgPromo{
+            width: 90%;
+            height: 11rem;   
+        }
+    }
+
+    &__offerContainer:hover {
+        transform: scale(1.02);
+        border: 2px solid gray;
+    }
+  }

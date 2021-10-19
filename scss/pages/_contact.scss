@@ -1,0 +1,16 @@
+
+.contactos{
+    text-align: center;
+
+    &__formulario{
+        border: 1px solid grey;
+        padding: 2%;
+        font-size: 1rem;
+        color: grey;
+
+        &--inputText label{
+            display: inline-block;
+            margin: 0.65%;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.main{
+
+    &__grid{
+        display: grid;
+        grid-template-columns: 0.8fr 3.2fr; 
+    }
+
+
+    @include  mobile {
+    
+        &__grid{
+            display: grid;
+            grid-template-rows: 0.5fr 3.5fr;
+            grid-template-columns: none; 
+        }
+    
+    }
+    
+    @include tablet {
+      
+        &__grid{
+            display: grid;
+            grid-template-rows: 0.5fr 3.5fr;
+            grid-template-columns: none; 
+        }
+    
+    }
+
+}

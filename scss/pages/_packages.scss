@@ -1,0 +1,17 @@
+
+.packages{
+
+  &--img{
+    width: 100%;
+    height: 250px;   
+  }
+
+  @each $city in bariloche, rosario, mendoza, caba, MarDelPlata, CostaAtlantica {
+    &--#{$city} { 
+      content:url('../assets/img/#{$city}-min.jpg');
+     /* background-image: url('../assets/img/#{$city}-min.jpg');*/
+      background-size: 100% 250px;
+    }
+  }
+}
+
