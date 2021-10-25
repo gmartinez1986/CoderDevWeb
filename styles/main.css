@@ -70,17 +70,18 @@
     grid-template-columns: none; } }
 
 .footer {
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   text-align: center;
   background: #87deb5;
   background: linear-gradient(6deg, #87deb5 0%, cyan 30%, white 60%); }
-  .footer__linkRedes {
+  .footer--linkRedes {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start; }
-  .footer__linkRedes > a {
+  .footer--linkRedes > a {
     text-decoration: none;
     color: gray;
     padding: .3rem;
@@ -88,9 +89,9 @@
     margin-right: 1%;
     font-size: 1.3rem;
     transition: transform 2s; }
-  .footer__linkRedes > a:hover {
+  .footer--linkRedes > a:hover {
     transform: scale(1.5); }
-  .footer__correo {
+  .footer--text {
     color: gray;
     font-size: 1.1rem;
     margin-top: 1%; }
