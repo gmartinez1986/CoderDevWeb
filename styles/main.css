@@ -131,6 +131,10 @@
     .offers__offerContainer--imgPromo {
       width: 90%;
       height: 11rem; }
+    .offers__offerContainer--text {
+      font-size: 1rem;
+      text-align: center;
+      padding: 1rem 0; }
   .offers__offerContainer:hover {
     transform: scale(1.02);
     border: 2px solid gray; }
@@ -150,27 +154,33 @@
   height: 250px; }
 
 .packages--bariloche {
-  background-image: url("../assets/img/bariloche-min.jpg");
+  content: url("../assets/img/bariloche-min.jpg");
+  /* background-image: url('../assets/img/bariloche-min.jpg');*/
   background-size: 100% 250px; }
 
 .packages--rosario {
-  background-image: url("../assets/img/rosario-min.jpg");
+  content: url("../assets/img/rosario-min.jpg");
+  /* background-image: url('../assets/img/rosario-min.jpg');*/
   background-size: 100% 250px; }
 
 .packages--mendoza {
-  background-image: url("../assets/img/mendoza-min.jpg");
+  content: url("../assets/img/mendoza-min.jpg");
+  /* background-image: url('../assets/img/mendoza-min.jpg');*/
   background-size: 100% 250px; }
 
 .packages--caba {
-  background-image: url("../assets/img/caba-min.jpg");
+  content: url("../assets/img/caba-min.jpg");
+  /* background-image: url('../assets/img/caba-min.jpg');*/
   background-size: 100% 250px; }
 
 .packages--MarDelPlata {
-  background-image: url("../assets/img/MarDelPlata-min.jpg");
+  content: url("../assets/img/MarDelPlata-min.jpg");
+  /* background-image: url('../assets/img/MarDelPlata-min.jpg');*/
   background-size: 100% 250px; }
 
 .packages--CostaAtlantica {
-  background-image: url("../assets/img/CostaAtlantica-min.jpg");
+  content: url("../assets/img/CostaAtlantica-min.jpg");
+  /* background-image: url('../assets/img/CostaAtlantica-min.jpg');*/
   background-size: 100% 250px; }
 
 .contactos {
