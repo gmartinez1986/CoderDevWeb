@@ -3,7 +3,7 @@
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-content: flex-start;
-    color: rgb(8, 8, 73);
+    color: gold;
     border: 1px solid transparent;
 
     &__offerContainer{
@@ -12,7 +12,8 @@
         flex-basis: 30%;
         margin: 1%;
         padding: 0 6px;
-        border: thin solid black;
+        color: white;
+        border: thin solid gold;
         transition: transform 2s;
         cursor: pointer;
 
@@ -30,6 +31,6 @@
 
     &__offerContainer:hover {
         transform: scale(1.02);
-        border: 2px solid gray;
+        border: 2px solid gold;
     }
   }

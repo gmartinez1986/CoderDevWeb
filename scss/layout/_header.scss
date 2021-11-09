@@ -1,12 +1,17 @@
 
-$title-color: gray;
+$title-color: #fff;
 $font-family: 'Akaya Kanadaka', cursive;
 
-$color-header: linear-gradient(0deg, rgba(0,255,255,1) 0%, rgba(135,222,181,1) 100%);
+$color-header: rgb(4,48,95);
+
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+}
 
 .header{
     
     text-align: center;
+    border-bottom: thin solid white;
 
     &__containerHeader{ 
         justify-content: space-between;
