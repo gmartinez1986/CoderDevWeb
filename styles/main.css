@@ -18,6 +18,7 @@
       .header__containerHeader__logoTitle--logo {
         width: 8rem;
         height: 6rem;
+        border-radius: 1rem;
         transition: transform 2s;
         cursor: pointer; }
         .header__containerHeader__logoTitle--logo:hover {
@@ -125,11 +126,7 @@
   justify-content: space-evenly;
   align-content: flex-start;
   color: gold;
-  border: 1px solid transparent;
-  /*  &__offerContainer:hover {
-       transform: scale(1.02);
-        border: 2px solid gold;
-    }*/ }
+  border: 1px solid transparent; }
   .offers__offerContainer {
     display: flex;
     flex-direction: column;
@@ -139,8 +136,7 @@
     color: white;
     border: thin solid gold;
     transition: transform 2s;
-    /* cursor: pointer;*/
-    height: 330px; }
+    padding-bottom: 1rem; }
     .offers__offerContainer--imgPromo {
       width: 90%;
       height: 11rem; }
@@ -148,6 +144,20 @@
       font-size: 1rem;
       text-align: center;
       padding: 1rem 0; }
+    .offers__offerContainer--price {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      color: #ff9912; }
+    .offers__offerContainer .btn-invert {
+      border: 1px solid #ff9912;
+      outline: 0;
+      color: #04305f;
+      background-color: #ff9912; }
+    .offers__offerContainer .btn-invert:hover,
+    .offers__offerContainer .btn-invert:focus {
+      border: 1px solid #ff9912;
+      color: #ff9912;
+      background-color: transparent; }
 
 .destinations {
   margin-top: 1rem;

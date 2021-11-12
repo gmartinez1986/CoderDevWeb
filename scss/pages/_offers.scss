@@ -15,8 +15,7 @@
         color: white;
         border: thin solid gold;
         transition: transform 2s;
-       /* cursor: pointer;*/
-       height: 330px;
+        padding-bottom: 1rem;
 
         &--imgPromo{
             width: 90%;
@@ -28,10 +27,26 @@
             text-align: center;
             padding: 1rem 0;
         }
-    }
 
-  /*  &__offerContainer:hover {
-       transform: scale(1.02);
-        border: 2px solid gold;
-    }*/
+        &--price{
+            margin-bottom:1rem;
+            font-size: 1.5rem;
+            color: #ff9912;
+        }
+
+        .btn-invert {
+            border: 1px solid #ff9912;
+            outline: 0;
+            color: rgb(4,48,95);
+            background-color: #ff9912;
+        }
+
+        .btn-invert:hover,
+        .btn-invert:focus {
+            border: 1px solid #ff9912;
+            color: #ff9912;
+            background-color: transparent;
+        }
+
+    }
   }
