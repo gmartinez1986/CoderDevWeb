@@ -247,14 +247,15 @@
   content: url("../assets/img/CostaAtlantica-min.jpg");
   background-size: 100% 250px; }
 
-.contactos {
-  text-align: center; }
-  .contactos__formulario {
+.contact {
+  text-align: center;
+  background-color: #044179; }
+  .contact__formulario {
     border: 1px solid grey;
     padding: 2%;
     font-size: 1rem;
-    color: grey; }
-    .contactos__formulario--inputText label {
+    color: white; }
+    .contact__formulario--inputText label {
       display: inline-block;
       margin: 0.65%; }
 
