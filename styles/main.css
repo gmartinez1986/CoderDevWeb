@@ -60,20 +60,17 @@
 
 .main--grid {
   display: grid;
-  /*     grid-template-columns: 0.8fr 3.2fr; */
   background-color: #044179;
   padding-bottom: 2rem; }
 
 @media screen and (max-width: 426px) {
   .main--grid {
     display: grid;
-    /*      grid-template-rows: 0.5fr 3.5fr;*/
     grid-template-columns: none; } }
 
 @media screen and (max-width: 768px) {
   .main--grid {
     display: grid;
-    /*     grid-template-rows: 0.5fr 3.5fr;*/
     grid-template-columns: none; } }
 
 .footer {
@@ -106,9 +103,8 @@
 .titles--subtitlesH2 {
   font-size: 2.1rem;
   color: white;
-  /* background-color: black;*/
+  background-color: #044179;
   text-align: center;
-  /*  letter-spacing: 0.2em;*/
   padding: 1rem 0;
   margin-bottom: 0;
   text-shadow: 2px 2px 1px #333; }
@@ -211,38 +207,35 @@
   color: #080849;
   border: 1px solid transparent; }
 
+.packages .card {
+  margin: 3%; }
+
 .packages--img {
   width: 100%;
   height: 250px; }
 
 .packages--bariloche {
   content: url("../assets/img/bariloche-min.jpg");
-  /* background-image: url('../assets/img/bariloche-min.jpg');*/
   background-size: 100% 250px; }
 
 .packages--rosario {
   content: url("../assets/img/rosario-min.jpg");
-  /* background-image: url('../assets/img/rosario-min.jpg');*/
   background-size: 100% 250px; }
 
 .packages--mendoza {
   content: url("../assets/img/mendoza-min.jpg");
-  /* background-image: url('../assets/img/mendoza-min.jpg');*/
   background-size: 100% 250px; }
 
 .packages--caba {
   content: url("../assets/img/caba-min.jpg");
-  /* background-image: url('../assets/img/caba-min.jpg');*/
   background-size: 100% 250px; }
 
 .packages--MarDelPlata {
   content: url("../assets/img/MarDelPlata-min.jpg");
-  /* background-image: url('../assets/img/MarDelPlata-min.jpg');*/
   background-size: 100% 250px; }
 
 .packages--CostaAtlantica {
   content: url("../assets/img/CostaAtlantica-min.jpg");
-  /* background-image: url('../assets/img/CostaAtlantica-min.jpg');*/
   background-size: 100% 250px; }
 
 .contactos {
