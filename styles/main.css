@@ -120,6 +120,30 @@
   letter-spacing: 0.2em;
   padding: 1rem 0; }
 
+.modal--panel {
+  overflow: hidden; }
+
+.modal--panel-heading {
+  background: #333;
+  color: #fff;
+  height: 2rem; }
+
+.modal--panel-body {
+  background: #07549c;
+  color: #eee; }
+
+.modal .btn-invert {
+  border: 1px solid #ff9912;
+  outline: 0;
+  color: #04305f;
+  background-color: #ff9912; }
+
+.modal .btn-invert:hover,
+.modal .btn-invert:focus {
+  border: 1px solid #ff9912;
+  color: #ff9912;
+  background-color: transparent; }
+
 .offers {
   text-align: center;
   flex-flow: row wrap;

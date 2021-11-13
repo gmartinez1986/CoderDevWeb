@@ -1,0 +1,31 @@
+.modal{
+
+    &--panel {
+        overflow:hidden;
+    }
+    
+    &--panel-heading {
+        background: #333;
+        color: #fff;
+        height: 2rem;
+    }
+    
+    &--panel-body {
+        background: #07549c;
+        color: #eee;
+    } 
+
+    .btn-invert {
+        border: 1px solid #ff9912;
+        outline: 0;
+        color: rgb(4,48,95);
+        background-color: #ff9912;
+    }
+    
+    .btn-invert:hover,
+    .btn-invert:focus {
+        border: 1px solid #ff9912;
+        color: #ff9912;
+        background-color: transparent;
+    }
+}
