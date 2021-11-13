@@ -127,7 +127,8 @@
   background: #333;
   color: #fff;
   height: 2rem;
-  padding: 1%; }
+  padding: 1%;
+  margin-top: 0.3rem; }
 
 .modal__panel-body {
   background: #07549c;
@@ -136,6 +137,12 @@
   margin-top: 0.1rem; }
   .modal__panel-body--row {
     padding: 0.5rem; }
+  .modal__panel-body--phone {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem; }
+  .modal__panel-body--phone:hover {
+    color: #337ab7; }
 
 .modal .btn-invert {
   border: 1px solid #ff9912;
