@@ -48,9 +48,13 @@ $color-header: rgb(4,48,95);
         &--title{
             color: $title-color;
             font-family: $font-family;
-            font-size: 2rem;
+            font-size: 2.4rem;
             margin-bottom: 1rem;
             text-shadow: 2px 2px 1px #333;
         }
+    }
+
+    .nav-link:hover{
+        color: #337ab7 !important;
     }
 }

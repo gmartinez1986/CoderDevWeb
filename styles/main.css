@@ -29,9 +29,11 @@
     .header__containerHeader--title {
       color: #fff;
       font-family: "Akaya Kanadaka", cursive;
-      font-size: 2rem;
+      font-size: 2.4rem;
       margin-bottom: 1rem;
       text-shadow: 2px 2px 1px #333; }
+  .header .nav-link:hover {
+    color: #337ab7 !important; }
 
 .sidebar {
   background: cyan;
