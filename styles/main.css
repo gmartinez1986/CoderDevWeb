@@ -176,6 +176,8 @@
     .offers__offerContainer--imgPromo {
       width: 90%;
       height: 11rem; }
+    .offers__offerContainer--title {
+      margin: 1rem; }
     .offers__offerContainer--text {
       font-size: 1rem;
       text-align: center;
@@ -194,6 +196,10 @@
       border: 1px solid #ff9912;
       color: #ff9912;
       background-color: transparent; }
+  .offers__offerContainer:hover {
+    transition: transform 2s;
+    transform: scale(1.03);
+    background-color: #04305f; }
 
 .destinations {
   margin-top: 1rem;

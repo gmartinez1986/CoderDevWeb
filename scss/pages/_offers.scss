@@ -22,6 +22,10 @@
             height: 11rem;   
         }
 
+        &--title{         
+            margin: 1rem;
+        }
+
         &--text{         
             font-size: 1rem;
             text-align: center;
@@ -47,5 +51,11 @@
             color: #ff9912;
             background-color: transparent;
         }
+    }
+
+    &__offerContainer:hover{
+        transition: transform 2s;
+        transform: scale(1.03);
+        background-color: rgb(4,48,95);
     }
   }
