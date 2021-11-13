@@ -128,9 +128,13 @@
   color: #fff;
   height: 2rem; }
 
-.modal--panel-body {
+.modal__panel-body {
   background: #07549c;
-  color: #eee; }
+  color: #eee;
+  padding: 2%;
+  margin-top: 0.1rem; }
+  .modal__panel-body--row {
+    padding: 0.5rem; }
 
 .modal .btn-invert {
   border: 1px solid #ff9912;
