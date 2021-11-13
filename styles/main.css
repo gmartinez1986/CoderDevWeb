@@ -126,7 +126,8 @@
 .modal--panel-heading {
   background: #333;
   color: #fff;
-  height: 2rem; }
+  height: 2rem;
+  padding: 1%; }
 
 .modal__panel-body {
   background: #07549c;
