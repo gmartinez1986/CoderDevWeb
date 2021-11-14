@@ -389,6 +389,30 @@
   content: url("../assets/img/jardin-persa-israel-haifa-min.jpg");
   background-size: 100% 250px; }
 
+.packages--cuba {
+  content: url("../assets/img/cuba-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--dominicana-punta-cana {
+  content: url("../assets/img/dominicana-punta-cana-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--cartagena-colombia {
+  content: url("../assets/img/cartagena-colombia-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--playa-carmen-hoteles-all-inclusive {
+  content: url("../assets/img/playa-carmen-hoteles-all-inclusive-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--taxco-mexico-viajes {
+  content: url("../assets/img/taxco-mexico-viajes-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--habana-cuba {
+  content: url("../assets/img/habana-cuba-min.jpg");
+  background-size: 100% 250px; }
+
 .packages .btn-invert {
   border: 1px solid #ff9912;
   outline: 0;

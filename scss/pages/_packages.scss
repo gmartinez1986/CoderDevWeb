@@ -15,7 +15,10 @@
                  natal-pipa, porto-galinhas, camboriu, espana,
                  barcelona-espana, londres, viajes-viena-austria-centro,
                  venecia, roma-italia-coliseo, viajes-turquia,
-                 santorini-grecia, egipto-templo-philae, jardin-persa-israel-haifa {
+                 santorini-grecia, egipto-templo-philae, jardin-persa-israel-haifa,
+                 cuba, dominicana-punta-cana, cartagena-colombia,
+                 playa-carmen-hoteles-all-inclusive, taxco-mexico-viajes,
+                 habana-cuba {
 
     &--#{$city} { 
       content:url('../assets/img/#{$city}-min.jpg');
