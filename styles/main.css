@@ -389,6 +389,18 @@
   content: url("../assets/img/jardin-persa-israel-haifa-min.jpg");
   background-size: 100% 250px; }
 
+.packages .btn-invert {
+  border: 1px solid #ff9912;
+  outline: 0;
+  color: #04305f;
+  background-color: #ff9912; }
+
+.packages .btn-invert:hover,
+.packages .btn-invert:focus {
+  border: 1px solid #ff9912;
+  color: #ff9912;
+  background-color: transparent; }
+
 .contact {
   text-align: center;
   background-color: #044179; }
