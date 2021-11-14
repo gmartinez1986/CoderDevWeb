@@ -373,6 +373,22 @@
   content: url("../assets/img/roma-italia-coliseo-min.jpg");
   background-size: 100% 250px; }
 
+.packages--viajes-turquia {
+  content: url("../assets/img/viajes-turquia-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--santorini-grecia {
+  content: url("../assets/img/santorini-grecia-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--egipto-templo-philae {
+  content: url("../assets/img/egipto-templo-philae-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--jardin-persa-israel-haifa {
+  content: url("../assets/img/jardin-persa-israel-haifa-min.jpg");
+  background-size: 100% 250px; }
+
 .contact {
   text-align: center;
   background-color: #044179; }
