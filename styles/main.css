@@ -325,6 +325,30 @@
   content: url("../assets/img/CostaAtlantica-min.jpg");
   background-size: 100% 250px; }
 
+.packages--janeiro {
+  content: url("../assets/img/janeiro-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--buzios {
+  content: url("../assets/img/buzios-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--salvador-de-bahia {
+  content: url("../assets/img/salvador-de-bahia-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--natal-pipa {
+  content: url("../assets/img/natal-pipa-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--porto-galinhas {
+  content: url("../assets/img/porto-galinhas-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--camboriu {
+  content: url("../assets/img/camboriu-min.jpg");
+  background-size: 100% 250px; }
+
 .contact {
   text-align: center;
   background-color: #044179; }

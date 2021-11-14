@@ -10,7 +10,10 @@
     height: 250px;   
   }
 
-  @each $city in bariloche, rosario, mendoza, caba, MarDelPlata, CostaAtlantica {
+  @each $city in bariloche, rosario, mendoza, caba, MarDelPlata, 
+                 CostaAtlantica, janeiro, buzios, salvador-de-bahia, 
+                 natal-pipa, porto-galinhas, camboriu {
+
     &--#{$city} { 
       content:url('../assets/img/#{$city}-min.jpg');
       background-size: 100% 250px;
