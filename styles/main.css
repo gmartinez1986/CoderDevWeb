@@ -349,6 +349,30 @@
   content: url("../assets/img/camboriu-min.jpg");
   background-size: 100% 250px; }
 
+.packages--espana {
+  content: url("../assets/img/espana-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--barcelona-espana {
+  content: url("../assets/img/barcelona-espana-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--londres {
+  content: url("../assets/img/londres-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--viajes-viena-austria-centro {
+  content: url("../assets/img/viajes-viena-austria-centro-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--venecia {
+  content: url("../assets/img/venecia-min.jpg");
+  background-size: 100% 250px; }
+
+.packages--roma-italia-coliseo {
+  content: url("../assets/img/roma-italia-coliseo-min.jpg");
+  background-size: 100% 250px; }
+
 .contact {
   text-align: center;
   background-color: #044179; }

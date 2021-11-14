@@ -12,7 +12,9 @@
 
   @each $city in bariloche, rosario, mendoza, caba, MarDelPlata, 
                  CostaAtlantica, janeiro, buzios, salvador-de-bahia, 
-                 natal-pipa, porto-galinhas, camboriu {
+                 natal-pipa, porto-galinhas, camboriu, espana,
+                 barcelona-espana, londres, viajes-viena-austria-centro,
+                 venecia, roma-italia-coliseo {
 
     &--#{$city} { 
       content:url('../assets/img/#{$city}-min.jpg');
