@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .navbar-light .navbar-nav .nav-link {
   color: white !important; }
 
@@ -294,136 +295,183 @@
     margin-right: 2px;
     font-weight: 900; }
 
-.packages .card {
-  margin: 3%; }
-
-.packages--img {
-  width: 100%;
-  height: 250px; }
-
-.packages--bariloche {
-  content: url("../assets/img/bariloche-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--rosario {
-  content: url("../assets/img/rosario-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--mendoza {
-  content: url("../assets/img/mendoza-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--caba {
-  content: url("../assets/img/caba-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--MarDelPlata {
-  content: url("../assets/img/MarDelPlata-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--CostaAtlantica {
-  content: url("../assets/img/CostaAtlantica-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--janeiro {
-  content: url("../assets/img/janeiro-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--buzios {
-  content: url("../assets/img/buzios-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--salvador-de-bahia {
-  content: url("../assets/img/salvador-de-bahia-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--natal-pipa {
-  content: url("../assets/img/natal-pipa-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--porto-galinhas {
-  content: url("../assets/img/porto-galinhas-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--camboriu {
-  content: url("../assets/img/camboriu-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--espana {
-  content: url("../assets/img/espana-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--barcelona-espana {
-  content: url("../assets/img/barcelona-espana-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--londres {
-  content: url("../assets/img/londres-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--viajes-viena-austria-centro {
-  content: url("../assets/img/viajes-viena-austria-centro-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--venecia {
-  content: url("../assets/img/venecia-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--roma-italia-coliseo {
-  content: url("../assets/img/roma-italia-coliseo-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--viajes-turquia {
-  content: url("../assets/img/viajes-turquia-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--santorini-grecia {
-  content: url("../assets/img/santorini-grecia-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--egipto-templo-philae {
-  content: url("../assets/img/egipto-templo-philae-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--jardin-persa-israel-haifa {
-  content: url("../assets/img/jardin-persa-israel-haifa-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--cuba {
-  content: url("../assets/img/cuba-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--dominicana-punta-cana {
-  content: url("../assets/img/dominicana-punta-cana-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--cartagena-colombia {
-  content: url("../assets/img/cartagena-colombia-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--playa-carmen-hoteles-all-inclusive {
-  content: url("../assets/img/playa-carmen-hoteles-all-inclusive-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--taxco-mexico-viajes {
-  content: url("../assets/img/taxco-mexico-viajes-min.jpg");
-  background-size: 100% 250px; }
-
-.packages--habana-cuba {
-  content: url("../assets/img/habana-cuba-min.jpg");
-  background-size: 100% 250px; }
-
-.packages .btn-invert {
-  border: 1px solid #ff9912;
-  outline: 0;
-  color: #04305f;
-  background-color: #ff9912; }
-
-.packages .btn-invert:hover,
-.packages .btn-invert:focus {
-  border: 1px solid #ff9912;
-  color: #ff9912;
-  background-color: transparent; }
+.packages {
+  /* Contenedor general */
+  /* Cada elemento */
+  /* Títulos pestañas */
+  /* Contenido inicialmente oculto */
+  /* Hover: Desplegamos elemento */
+  /* Hover: Hacemos que el título no ocupe todo el ancho */
+  /* Hover: La diferencia hasta el 100% lo ocupará el contenido */ }
+  .packages .card {
+    margin: 3%; }
+  .packages--img {
+    width: 100%;
+    height: 250px; }
+  .packages--bariloche {
+    content: url("../assets/img/bariloche-min.jpg");
+    background-size: 100% 250px; }
+  .packages--rosario {
+    content: url("../assets/img/rosario-min.jpg");
+    background-size: 100% 250px; }
+  .packages--mendoza {
+    content: url("../assets/img/mendoza-min.jpg");
+    background-size: 100% 250px; }
+  .packages--caba {
+    content: url("../assets/img/caba-min.jpg");
+    background-size: 100% 250px; }
+  .packages--MarDelPlata {
+    content: url("../assets/img/MarDelPlata-min.jpg");
+    background-size: 100% 250px; }
+  .packages--CostaAtlantica {
+    content: url("../assets/img/CostaAtlantica-min.jpg");
+    background-size: 100% 250px; }
+  .packages--janeiro {
+    content: url("../assets/img/janeiro-min.jpg");
+    background-size: 100% 250px; }
+  .packages--buzios {
+    content: url("../assets/img/buzios-min.jpg");
+    background-size: 100% 250px; }
+  .packages--salvador-de-bahia {
+    content: url("../assets/img/salvador-de-bahia-min.jpg");
+    background-size: 100% 250px; }
+  .packages--natal-pipa {
+    content: url("../assets/img/natal-pipa-min.jpg");
+    background-size: 100% 250px; }
+  .packages--porto-galinhas {
+    content: url("../assets/img/porto-galinhas-min.jpg");
+    background-size: 100% 250px; }
+  .packages--camboriu {
+    content: url("../assets/img/camboriu-min.jpg");
+    background-size: 100% 250px; }
+  .packages--espana {
+    content: url("../assets/img/espana-min.jpg");
+    background-size: 100% 250px; }
+  .packages--barcelona-espana {
+    content: url("../assets/img/barcelona-espana-min.jpg");
+    background-size: 100% 250px; }
+  .packages--londres {
+    content: url("../assets/img/londres-min.jpg");
+    background-size: 100% 250px; }
+  .packages--viajes-viena-austria-centro {
+    content: url("../assets/img/viajes-viena-austria-centro-min.jpg");
+    background-size: 100% 250px; }
+  .packages--venecia {
+    content: url("../assets/img/venecia-min.jpg");
+    background-size: 100% 250px; }
+  .packages--roma-italia-coliseo {
+    content: url("../assets/img/roma-italia-coliseo-min.jpg");
+    background-size: 100% 250px; }
+  .packages--viajes-turquia {
+    content: url("../assets/img/viajes-turquia-min.jpg");
+    background-size: 100% 250px; }
+  .packages--santorini-grecia {
+    content: url("../assets/img/santorini-grecia-min.jpg");
+    background-size: 100% 250px; }
+  .packages--egipto-templo-philae {
+    content: url("../assets/img/egipto-templo-philae-min.jpg");
+    background-size: 100% 250px; }
+  .packages--jardin-persa-israel-haifa {
+    content: url("../assets/img/jardin-persa-israel-haifa-min.jpg");
+    background-size: 100% 250px; }
+  .packages--cuba {
+    content: url("../assets/img/cuba-min.jpg");
+    background-size: 100% 250px; }
+  .packages--dominicana-punta-cana {
+    content: url("../assets/img/dominicana-punta-cana-min.jpg");
+    background-size: 100% 250px; }
+  .packages--cartagena-colombia {
+    content: url("../assets/img/cartagena-colombia-min.jpg");
+    background-size: 100% 250px; }
+  .packages--playa-carmen-hoteles-all-inclusive {
+    content: url("../assets/img/playa-carmen-hoteles-all-inclusive-min.jpg");
+    background-size: 100% 250px; }
+  .packages--taxco-mexico-viajes {
+    content: url("../assets/img/taxco-mexico-viajes-min.jpg");
+    background-size: 100% 250px; }
+  .packages--habana-cuba {
+    content: url("../assets/img/habana-cuba-min.jpg");
+    background-size: 100% 250px; }
+  .packages .btn {
+    border-radius: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+  .packages .btn-default {
+    border: 1px solid #ff9912;
+    color: #ff9912;
+    background-color: transparent; }
+  .packages .btn-default:hover,
+  .packages .btn-default:focus {
+    border: 1px solid #ff9912;
+    outline: 0;
+    color: #04305f;
+    background-color: #ff9912; }
+  .packages ul.acordeon * {
+    margin: 0 auto;
+    padding: 0;
+    vertical-align: middle;
+    color: #fff;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .packages ul.acordeon {
+    width: 100%;
+    /* Personalizar ancho total desplegado */
+    overflow: hidden;
+    margin: 0 auto 10px !important;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    font-size: 0; }
+  .packages ul.acordeon li {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    /* IE7 */
+    width: 33%;
+    /* 90 : (nºelem+2) */
+    height: 30px;
+    padding: 0 !important;
+    text-align: center;
+    border-right: 1px solid transparent; }
+  .packages ul.acordeon li h4 {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    /* IE7 */
+    width: 100%;
+    height: 100%;
+    padding: 5px !important;
+    font-size: 18px;
+    text-align: center; }
+  .packages ul.acordeon li .contenido {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    /* IE7 */
+    width: 0%;
+    height: 100%;
+    padding: 3px 0;
+    overflow: hidden;
+    font-size: 14px; }
+  .packages ul.acordeon li:hover {
+    width: 33%;
+    /* aprox 3 x ancho ul.acordeon li */ }
+  .packages ul.acordeon li:hover h4 {
+    width: 40%;
+    /* Parte sobre el total que ocupara icono desplegado */
+    background: #333; }
+  .packages ul.acordeon li:hover h4 span {
+    color: #eee; }
+  .packages ul.acordeon li:hover .contenido {
+    width: 60%;
+    /* 100 - ancho ul.acordeon li:hover h4 */ }
 
 .contact {
   text-align: center;
