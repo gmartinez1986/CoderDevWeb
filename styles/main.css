@@ -192,6 +192,13 @@
       margin-bottom: 1rem;
       font-size: 1.5rem;
       color: #ff9912; }
+    .offers__offerContainer .btn {
+      border-radius: 0;
+      font-family: 'Lato', sans-serif;
+      font-weight: 900;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out; }
     .offers__offerContainer .btn-invert {
       border: 1px solid #ff9912;
       outline: 0;
