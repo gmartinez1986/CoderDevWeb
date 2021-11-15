@@ -492,6 +492,7 @@
   text-align: center;
   background-color: #044179; }
   .contact__formulario {
+    width: 85%;
     border-top: 1px solid white;
     border-left: 1px solid white;
     border-right: 1px solid white;
